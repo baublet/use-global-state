@@ -32,7 +32,7 @@ All hooks with the same `key` will share state and update together.
 ```tsx
 import * as React from "react";
 import * as ReactDOM from "react-dom";
-import { useGlobalState } from ".";
+import { useGlobalState } from "use-global-state";
 
 function App() {
   return (
