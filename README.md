@@ -4,7 +4,7 @@
 
 A custom React hook for shared state. Typescript ready, isomorphic, and tiny. No dependencies (apart from React, obviously), and fully tested.
 
-## Install
+## Installation
 
 ```bash
 npm install --save @baublet/use-global-state
@@ -12,7 +12,20 @@ npm install --save @baublet/use-global-state
 
 ## Use
 
-`const [value, setState] = useGlobalState(key, initialValue = "")`
+This library is a custom hook, and thus follows all of the same requirements and conditions as [React Hooks](https://reactjs.org/docs/hooks-state.html#hooks-and-function-components).
+
+```tsx
+const MyComponent = () => {
+  const [count, setCount] = useGlobalState("count", 0);
+  return (
+    <>
+      <button onClick={() => setCount(count - 1)}>-</button>
+      <div>{count}</div>
+      <button onClick={() => setCount(count + 1)}>+</button>
+    </>
+  );
+};
+```
 
 All hooks with the same `key` will share state and update together.
 
