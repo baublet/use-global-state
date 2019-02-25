@@ -27,7 +27,7 @@ const keys: KeysType = {},
 // We don't want to leave around a bunch of arrays that are just stuffed
 // full of null values. For long-running applications, this can be
 // memory intensive. We trade a bit of up-front performance here for
-// better long-term memory management
+// better long-term memory management.
 function resetEmptyKeys(): void {
   Object.keys(keys).forEach((key: string) => {
     let allNull: boolean = true;
