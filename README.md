@@ -1,8 +1,8 @@
 # `useGlobalState(key, initialValue = "")`
 
-<img src="./demo.gif" alt="Demonstration of shared state setup and tear down across n number of components" align="right" width="241.5" height="215.5" />
-
 A custom React hook for shared state. Typescript ready, isomorphic, and tiny. No dependencies (apart from React, obviously), and fully tested.
+
+<img src="https://raw.githubusercontent.com/baublet/use-global-state/master/demo.gif" alt="Demonstration of shared state setup and tear down across n number of components" />
 
 ## Installation
 
