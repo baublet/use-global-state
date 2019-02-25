@@ -27,7 +27,14 @@
       "enzyme-to-json"
     ]
   },
-  "keywords": [],
+  "keywords": [
+    "typescript",
+    "react",
+    "react hooks",
+    "state",
+    "state management",
+    "redux"
+  ],
   "author": "",
   "license": "ISC",
   "dependencies": {
