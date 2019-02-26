@@ -4,6 +4,10 @@
   "description": "",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/baublet/use-global-state"
+  },
   "scripts": {
     "test": "jest"
   },

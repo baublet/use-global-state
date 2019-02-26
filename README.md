@@ -2,7 +2,7 @@
 
 [![CircleCI](https://circleci.com/gh/baublet/use-global-state.svg?style=svg)](https://circleci.com/gh/baublet/use-global-state)
 
-A custom React hook for shared state. Typescript ready, isomorphic, and tiny. No dependencies (apart from React, obviously), and fully tested.
+A custom React hook for shared state. Typescript ready, isomorphic, and tiny. No additional, and fully tested.
 
 <img src="https://raw.githubusercontent.com/baublet/use-global-state/master/demo.gif" alt="Demonstration of shared state setup and tear down across n number of components" />
 
