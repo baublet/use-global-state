@@ -1,6 +1,6 @@
 {
   "name": "@baublet/use-global-state",
-  "version": "1.0.5",
+  "version": "1.1.0",
   "description": "",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
@@ -9,7 +9,8 @@
     "url": "https://github.com/baublet/use-global-state"
   },
   "scripts": {
-    "test": "jest"
+    "test": "jest",
+    "build": "tsc"
   },
   "jest": {
     "moduleFileExtensions": [
